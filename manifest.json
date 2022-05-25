@@ -1,0 +1,9 @@
+{
+  "name": "Export Colors Object",
+  "id": "1111361040304428419",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma"
+  ]
+}
