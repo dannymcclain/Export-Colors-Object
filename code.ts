@@ -19,7 +19,8 @@ paintStyles.forEach((item) => {
   // @ts-ignore
   // paintObject['color'] = item.paints[0].color;
   paintObject['color'] = rgbToHex(item.paints[0].color.r, item.paints[0].color.g, item.paints[0].color.b).toUpperCase();
-  paintObject['ratio'] = 'get ratio() { return getRatio(this.color)}'
+  // paintObject['ratio'] = 'get ratio() { return getRatio(this.color)}'
+  paintObject['description'] = item.description;
   paintArray.push(paintObject);
 })
 console.log(paintArray);
